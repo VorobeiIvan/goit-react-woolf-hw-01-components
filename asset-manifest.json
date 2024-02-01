@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/css/main.659c8046.css",
-    "main.js": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/js/main.02a43d41.js",
+    "main.css": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/css/main.93f24016.css",
+    "main.js": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/js/main.bb7edfa3.js",
     "index.html": "/VorobeiIvan/goit-react-woolf-hw-01-components/index.html",
-    "main.659c8046.css.map": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/css/main.659c8046.css.map",
-    "main.02a43d41.js.map": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/js/main.02a43d41.js.map"
+    "main.93f24016.css.map": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/css/main.93f24016.css.map",
+    "main.bb7edfa3.js.map": "/VorobeiIvan/goit-react-woolf-hw-01-components/static/js/main.bb7edfa3.js.map"
   },
   "entrypoints": [
-    "static/css/main.659c8046.css",
-    "static/js/main.02a43d41.js"
+    "static/css/main.93f24016.css",
+    "static/js/main.bb7edfa3.js"
   ]
 }
