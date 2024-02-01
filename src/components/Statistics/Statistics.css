@@ -31,7 +31,8 @@
     align-items: center;
     gap: 8px;
     padding: 8px 16px;
-    width: 40px;
+    width: 48px;
+    color: #ffff;
 }
 
 .item-statistics:last-child {
@@ -40,4 +41,14 @@
 
 .item-statistics:first-child {
     border-radius: 0 0 0 8px;
+}
+
+.label-statistics {
+    font-size: 16px;
+}
+
+.percentage-statistics {
+    font-size: 20px;
+    font-weight: 700;
+
 }
