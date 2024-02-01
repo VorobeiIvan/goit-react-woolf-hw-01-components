@@ -1,17 +1,5 @@
-import React from 'react';
-import './Profile.css';
-
-// Компонент профілю, який відображає інформацію про користувача
 const Profile = ({ username, tag, location, avatar, stats }) => {
   const { followers, views, likes } = stats;
-
-  // Створюємо масив елементів li на основі даних про статистику
-  const statItems = Object.entries({ Followers: followers, Views: views, Likes: likes }).map(([label, quantity]) => (
-    <li key={label} className="item">
-      <span className="label">{label}</span>
-      <span className="quantity">{quantity}</span>
-    </li>
-  ));
 
   return (
     <div className="profile">
@@ -22,7 +10,20 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
         <p className="location">{location}</p>
       </div>
 
-      <ul className="stats">{statItems}</ul>
+      <ul className="stats">
+        <li className="item item-followers">
+          <span className="label">Followers</span>
+          <span className="quantity">{followers}</span>
+        </li>
+        <li className="item item-views">
+          <span className="label">Views</span>
+          <span className="quantity">{views}</span>
+        </li>
+        <li className="item item-likes">
+          <span className="label">Likes</span>
+          <span className="quantity">{likes}</span>
+        </li>
+      </ul>
     </div>
   );
 };
