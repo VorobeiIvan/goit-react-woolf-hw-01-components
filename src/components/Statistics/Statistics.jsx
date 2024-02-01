@@ -1,22 +1,22 @@
-import React from 'react';
+import getRandomColor from '../getRandomColor';
 
-// Компонент статистики, який відображає статистичні дані
 const Statistics = ({ title, stats }) => {
-  // Перевірка, чи існують статистичні дані
   if (!stats) {
-    return null; // Можна також вивести пустий або заглушковий елемент
+    return null;
   }
-
   return (
     <section className="statistics">
-      <h2 className="title">{title}</h2>
+      <h2 className="title-statistics">{title}</h2>
 
-      <ul className="stat-list">
-        {/* Перевірка на наявність stats перед використанням map */}
+      <ul className="stat-list-statistics">
         {stats.map(({ id, label, percentage }) => (
-          <li key={id} className="item">
-            <span className="label">{label}</span>
-            <span className="percentage">{percentage}</span>
+          <li
+            key={id}
+            className="item-statistics"
+            style={{ backgroundColor: getRandomColor() }}
+          >
+            <span className="label-statistics">{label}</span>
+            <span className="percentage-statistics">{percentage}</span>
           </li>
         ))}
       </ul>
