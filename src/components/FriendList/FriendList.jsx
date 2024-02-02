@@ -1,4 +1,4 @@
-import changeColor from '../changeColor';
+import changeColor from '../../function/changeColor';
 
 const FriendList = ({ friends }) => {
   if (!friends) {

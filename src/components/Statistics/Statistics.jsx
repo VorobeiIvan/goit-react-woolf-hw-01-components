@@ -1,4 +1,4 @@
-import getRandomColor from '../getRandomColor';
+import getRandomColor from '../../function/getRandomColor';
 
 const Statistics = ({ title, stats }) => {
   if (!stats) {
